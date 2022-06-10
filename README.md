@@ -1,7 +1,6 @@
 ### GRANDFATHERED
 
-This project is no longer maintained. Contact us if you want to become a maintainer of this project.
-
+Foundational point of departure for DeltaVerse 3.D
 We recommend using [Cesium](https://github.com/AnalyticalGraphicsInc/cesium) instead ([code sample](https://cloud.maptiler.com/maps/hybrid/cesium)).
 
 ---
