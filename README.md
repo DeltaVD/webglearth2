@@ -11,7 +11,6 @@ Open-source virtual planet web application running in any web browser with suppo
 
 There is an extremely easy to use JavaScript API - fully mimicking LeafletJS.
 
-See: http://examples.webglearth.org/ for demos.
 
 ## Usage
 
@@ -37,11 +36,11 @@ A simple Hello World:
     <div id="earth_div" style="width:600px;height:400px;"></div>
   </body>
 </html>
-```
-More examples are at: http://examples.webglearth.org/.
+
+
 
 Original version of WebGL Earth had also it's own easy API which is preserved for back compatibility.
-It is documented at http://www.webglearth.org/api.
+It is documented at http://www.webglearth.org/api todo use the timemachine
 
 The supported Leaflet API methods are not yet documented -- the best source of the information are currently the API examples (`src/api-l.html`, `src/api.html`, `src/polygon.html`) and the API symbol exports itselves (`src/api.js` and `src/api-l.js`).
 
@@ -53,9 +52,7 @@ Embedding of a globe in your own web is then extremely easy.
 
 ### From custom server or even offline
 
-Because the project is 100% open-source, the complete code can be hosted also on your own website or distributed with applications. Ready to use API releases are at: https://github.com/webglearth/webglearth2/releases
-
-With custom rendered map tiles (made with http://www.maptiler.com/) the project can be used on intranets, in restricted environments or even offline. The API should be accessed via HTTP protocol (possibly via localhost).
+Capable of local and external hosting for dAPP editing while offline. With custom rendered map tiles (made with http://www.maptiler.com/) the project can be used on intranets, in restricted environments or even offline. The API should be accessed via HTTP protocol (possibly via localhost).
 
 
 ## Development and building
